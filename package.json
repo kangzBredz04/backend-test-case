@@ -1,12 +1,20 @@
 {
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon api",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Wahyu",
+	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"jest": "^29.7.0",
-		"mysql2": "^3.11.0",
 		"nodemon": "^3.1.4",
-		"sequelize": "^6.37.3",
-		"swagger-jsdoc": "^6.2.8",
-		"swagger-ui-express": "^5.0.1"
+		"pg": "^8.12.0"
 	}
 }
